@@ -8,7 +8,7 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.net.Uri;
 import android.net.wifi.WifiManager;
-import android.net.wifi.hotspot2.ConfigBuilder;
+import android.net.wifi.hotspot2.ConfigParser;
 import android.net.wifi.hotspot2.PasspointConfiguration;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -46,13 +46,13 @@ public class WiFiInstaller extends Activity {
                 mimeType + " is " + (data != null ? data.length : "-"));
 
         mWifiManager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
-        mPasspointConfig = ConfigBuilder.buildPasspointConfig(mimeType, data);
+        mPasspointConfig = ConfigParser.parsePasspointConfig(mimeType, data);
         dropFile(Uri.parse(uriString), getApplicationContext());
 
         if (mPasspointConfig == null) {
             Log.w(TAG, "failed to build passpoint configuration");
             doNotInstall = true;
-        } else if (mPasspointConfig.homeSp == null) {
+        } else if (mPasspointConfig.getHomeSp() == null) {
             Log.w(TAG, "Passpoint profile missing HomeSP information");
             doNotInstall = true;
         }
@@ -77,9 +77,9 @@ public class WiFiInstaller extends Activity {
         TextView text = (TextView) layout.findViewById(R.id.wifi_info);
         if (!doNotInstall) {
             text.setText(String.format(getResources().getString(R.string.wifi_installer_detail),
-                    mPasspointConfig.homeSp.friendlyName));
+                    mPasspointConfig.getHomeSp().getFriendlyName()));
 
-            builder.setTitle(mPasspointConfig.homeSp.friendlyName);
+            builder.setTitle(mPasspointConfig.getHomeSp().getFriendlyName());
             builder.setIcon(res.getDrawable(R.drawable.signal_wifi_4_bar_lock_black_24dp));
 
             builder.setPositiveButton(R.string.wifi_install_label,
@@ -91,10 +91,9 @@ public class WiFiInstaller extends Activity {
                     AsyncTask.execute(new Runnable() {
                         @Override
                         public void run() {
-                            boolean success = false;
+                            boolean success = true;
                             try {
-                                success = mWifiManager.addOrUpdatePasspointConfiguration(
-                                        mPasspointConfig);
+                                mWifiManager.addOrUpdatePasspointConfiguration(mPasspointConfig);
                             } catch (RuntimeException rte) {
                                 Log.w(TAG, "Caught exception while installing wifi config: " +
                                            rte, rte);
@@ -104,7 +103,7 @@ public class WiFiInstaller extends Activity {
                                 Intent intent = new Intent(getApplicationContext(),
                                         CredentialsInstallDialog.class);
                                 intent.putExtra(NETWORK_NAME,
-                                        mPasspointConfig.homeSp.friendlyName);
+                                        mPasspointConfig.getHomeSp().getFriendlyName());
                                 intent.putExtra(INSTALL_STATE, INSTALL_SUCCESS);
                                 startActivity(intent);
                             } else {
@@ -149,7 +148,11 @@ public class WiFiInstaller extends Activity {
      */
     private static void dropFile(Uri uri, Context context) {
         if (DocumentsContract.isDocumentUri(context, uri)) {
-            DocumentsContract.deleteDocument(context.getContentResolver(), uri);
+            try {
+                DocumentsContract.deleteDocument(context.getContentResolver(), uri);
+            } catch (Exception e) {
+                Log.e(TAG, "could not delete document " + uri);
+            }
         } else {
             context.getContentResolver().delete(uri, null, null);
         }
