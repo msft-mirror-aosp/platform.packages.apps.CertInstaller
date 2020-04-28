@@ -27,6 +27,7 @@
     <string name="credential_info" msgid="2436768402308470397">"პაკეტში შედის:"</string>
     <string name="p12_description" msgid="4128352087331630024">"სერთიფიკატები გასაღების საცავში PKCS12."</string>
     <string name="one_userkey" msgid="3500697912370644881">"მომხმარებლის ერთი გასაღები"</string>
+    <string name="userkey_type" msgid="6214833257030657106">"ალგორითმი:"</string>
     <string name="one_usercrt" msgid="7690798336332403106">"გამოიყენეთ მომხმარებლის სერტიფიკატი"</string>
     <string name="one_cacrt" msgid="2667950425420663146">"ერთი CA სერტიფიკატი"</string>
     <string name="n_cacrts" msgid="2141498640685639208">"%d CA სერტიფიკატები"</string>
@@ -63,9 +64,7 @@
     <string name="wifi_ttls_config_text" msgid="2002413183253872168">"მომხმარებლის სახელი: %s\n"</string>
     <string name="wifi_tls_config_text" msgid="9062328536640168510">"კლიენტის სერტიფიკატი:\n%1$s\nგასაღები: %2$s\n"</string>
     <string name="wifi_sim_config_text" msgid="1666019954520831840">"SIM: %s\n"</string>
-    <!-- String.format failed for translation -->
-    <!-- no translation found for wifi_trust_config_text (5916047381475747783) -->
-    <skip />
+    <string name="wifi_trust_config_text" msgid="5916047381475747783">"სერტიფიკატის ნდობა: \n%s\n"</string>
     <string name="install_done_title" msgid="4822989918460334497">"ავტორიზაციის მონაცემები დაყენებულია"</string>
     <string name="install_done" msgid="1522718684172097080">"<xliff:g id="NAME">%1$s</xliff:g> ავტორიზაციის მონაცემები დაემატა შენახულ Wi-Fi ქსელებს."</string>
     <string name="done_label" msgid="5597425930652904250">"შესრულდა"</string>

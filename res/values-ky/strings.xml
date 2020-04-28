@@ -27,6 +27,7 @@
     <string name="credential_info" msgid="2436768402308470397">"Топтомдо төмөнкүлөр камтылган:"</string>
     <string name="p12_description" msgid="4128352087331630024">"PKCS12 ачкыч кампасындагы тастыктамалар."</string>
     <string name="one_userkey" msgid="3500697912370644881">"бир колдонуучу ачкычы"</string>
+    <string name="userkey_type" msgid="6214833257030657106">"Алгоритм:"</string>
     <string name="one_usercrt" msgid="7690798336332403106">"бир колдонуучу тастыктамасы"</string>
     <string name="one_cacrt" msgid="2667950425420663146">"бир CA тастыктамасы"</string>
     <string name="n_cacrts" msgid="2141498640685639208">"%d CA тастыктамасы"</string>
@@ -72,5 +73,5 @@
     <string name="wifi_installer_fail" msgid="894483173306576331">"Wi-Fi эсептик дайындары орнотулбай калды. Файлды кайра жүктөп көрүңүз."</string>
     <string name="wifi_installer_fail_no_wifi_title" msgid="8358191074828840533">"Орнотуу жокко чыгарылды"</string>
     <string name="wifi_installer_fail_title" msgid="5547079779067835479">"Орнотулбай жатат"</string>
-    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"Wi-Fi күйгүзүп, кайра аракет кылыңыз."</string>
+    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"Wi-Fi күйгүзүп, кайталап көрүңүз."</string>
 </resources>
