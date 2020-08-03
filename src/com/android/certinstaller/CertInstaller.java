@@ -277,7 +277,7 @@ public class CertInstaller extends Activity {
     }
 
     private void installOthers() {
-        // Sanity check: Check that there's either:
+        // Check that there's either:
         // * A private key AND a user certificate, or
         // * A CA cert.
         boolean hasPrivateKeyAndUserCertificate =
