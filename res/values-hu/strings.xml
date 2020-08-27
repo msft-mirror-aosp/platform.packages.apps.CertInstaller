@@ -21,12 +21,13 @@
     <string name="pkcs12_password_dialog_title" msgid="5997624645207427161">"Tanúsítvány kibontása"</string>
     <string name="extracting_pkcs12" msgid="1881267738821799771">"Kibontás..."</string>
     <string name="pkcs12_file_password_dialog_title" msgid="8102721384767269510">"Kiolvasás innen: %s"</string>
-    <string name="name_credential_dialog_title" msgid="277729846491554437">"A tanúsítvány neve"</string>
-    <string name="credential_name" msgid="1974979771369744378">"Tanúsítvány neve:"</string>
+    <string name="name_credential_dialog_title" msgid="1481964824549786927">"Tanúsítvány elnevezése"</string>
+    <string name="certificate_name" msgid="8415893401368824792">"Tanúsítvány neve"</string>
     <string name="credential_password" msgid="3520176519550993326">"Adja meg a jelszót a tanúsítványok kibontásához."</string>
     <string name="credential_info" msgid="2436768402308470397">"A csomag tartalma:"</string>
     <string name="p12_description" msgid="4128352087331630024">"Tanúsítványok a PKCS12 kulcstárban."</string>
     <string name="one_userkey" msgid="3500697912370644881">"egy felhasználói kulcs"</string>
+    <string name="userkey_type" msgid="6214833257030657106">"Algoritmus:"</string>
     <string name="one_usercrt" msgid="7690798336332403106">"egy felhasználói tanúsítvány"</string>
     <string name="one_cacrt" msgid="2667950425420663146">"egy CA tanúsítvány"</string>
     <string name="n_cacrts" msgid="2141498640685639208">"%d CA tanúsítvány"</string>
@@ -40,10 +41,26 @@
     <string name="invalid_cert" msgid="7704228670980743590">"Ez a tanúsítvány érvénytelen."</string>
     <string name="action_missing_private_key" msgid="7543470057312920042">"Tanúsítvány telepítéséhez privát kulcs szükséges"</string>
     <string name="action_missing_user_cert" msgid="3727411730202316771">"Privát kulcs telepítéséhez tanúsítvány szükséges"</string>
-    <string name="cert_is_added" msgid="6996557598167000500">"A(z) <xliff:g id="CREDENTIAL">%s</xliff:g> tanúsítvány telepítve van."</string>
+    <string name="select_certificate_usage_title" msgid="8853023485944920851">"Válasszon tanúsítványtípust"</string>
+    <string name="redirect_ca_certificate_title" msgid="6485888009061040788">"Nem sikerült telepíteni a CA-tanúsítványokat"</string>
+    <string name="redirect_ca_certificate_message" msgid="8856228614987350607">"A CA-tanúsítványok veszélyeztethetik adatait, és a Beállításokban kell telepíteni őket"</string>
+    <string name="redirect_ca_certificate_close_button" msgid="4291301659747279488">"Bezárás"</string>
+    <string name="invalid_certificate_title" msgid="4642955675523621795">"Nem sikerült telepíteni a tanúsítványokat"</string>
+    <string name="invalid_certificate_close_button" msgid="350986774973653102">"Bezárás"</string>
+    <string name="invalid_certificate_message" msgid="3508065546083182733">"Ez a fájl nem használható a következőképp: <xliff:g id="CERTIFICATE_USAGE">%1$s</xliff:g>"</string>
+    <string name="certificate" msgid="8790577925509962529">"Tanúsítvány"</string>
+    <string name="ca_certificate" msgid="7397198551290322945">"CA-tanúsítvány"</string>
+    <string name="user_certificate" msgid="514888069820553128">"VPN- és appfelhasználói tanúsítvány"</string>
+    <string name="wifi_certificate" msgid="5356595832360140989">"Wi‑Fi-tanúsítvány"</string>
+    <string name="app_src_certificate" msgid="3694999524870757145">"Alkalmazásforrás-tanúsítvány"</string>
+    <string name="ca_cert_is_added" msgid="2847081843756291802">"CA-tanúsítvány telepítve"</string>
+    <string name="user_cert_is_added" msgid="3088794616560630823">"Felhasználói tanúsítvány telepítve"</string>
+    <string name="wifi_cert_is_added" msgid="333220613655140428">"Wi‑Fi-tanúsítvány telepítve"</string>
+    <string name="app_src_cert_is_added" msgid="9052696598954619608">"Alkalmazásforrás-tanúsítvány telepítve"</string>
     <string name="cert_too_large_error" msgid="8715414972725646285">"Nem lehet telepíteni, mert a tanúsítvány mérete túl nagy."</string>
     <string name="cert_missing_error" msgid="7040527352278728220">"Nem lehet telepíteni, mert a tanúsítványfájl nem található."</string>
     <string name="cert_read_error" msgid="7353463360652419796">"Nem lehet telepíteni, mert a tanúsítványfájl nem olvasható."</string>
+    <string name="cert_temp_error" msgid="617276803992714550">"Ideiglenes hiba. Próbálja újra."</string>
     <string name="only_primary_user_allowed" msgid="4005084935023047716">"Csak az eszköz tulajdonosa telepíthet tanúsítványokat."</string>
     <string name="credential_usage_label" msgid="1513892208033156805">"Hitelesítési adatok használata:"</string>
   <string-array name="credential_usage">

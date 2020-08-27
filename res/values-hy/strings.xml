@@ -23,14 +23,13 @@
     <!-- String.format failed for translation -->
     <!-- no translation found for pkcs12_file_password_dialog_title (8102721384767269510) -->
     <skip />
-    <string name="name_credential_dialog_title" msgid="277729846491554437">"Անվանեք վկայագիրը"</string>
-    <string name="credential_name" msgid="1974979771369744378">"Վկայագրի անունը`"</string>
+    <string name="name_credential_dialog_title" msgid="1481964824549786927">"Անուն տվեք այս հավաստագրին"</string>
+    <string name="certificate_name" msgid="8415893401368824792">"Հավաստագրի անունը"</string>
     <string name="credential_password" msgid="3520176519550993326">"Մուտքագրեք գաղտնաբառը` հավաստագրերն արտածելու համար:"</string>
     <string name="credential_info" msgid="2436768402308470397">"Փաթեթը պարունակում է`"</string>
     <string name="p12_description" msgid="4128352087331630024">"Վկայականներ PKCS12 բանալիների պահոցում:"</string>
     <string name="one_userkey" msgid="3500697912370644881">"մեկ օգտատիրոջ բանալի"</string>
-    <!-- no translation found for userkey_type (6214833257030657106) -->
-    <skip />
+    <string name="userkey_type" msgid="6214833257030657106">"Ալգորիթմ՝"</string>
     <string name="one_usercrt" msgid="7690798336332403106">"մեկ օգտատիրոջ վկայական"</string>
     <string name="one_cacrt" msgid="2667950425420663146">"մեկ CA վկայագիր"</string>
     <string name="n_cacrts" msgid="2141498640685639208">"%d CA վկայականներ"</string>
@@ -44,10 +43,26 @@
     <string name="invalid_cert" msgid="7704228670980743590">"Վկայագիրը անվավեր է:"</string>
     <string name="action_missing_private_key" msgid="7543470057312920042">"Հավաստագիրը տեղադրելու համար գաղտնի բանալի է անհրաժեշտ"</string>
     <string name="action_missing_user_cert" msgid="3727411730202316771">"Գաղտնի բանալի տեղադրելու համար հավաստագիր է անհրաժեշտ"</string>
-    <string name="cert_is_added" msgid="6996557598167000500">"<xliff:g id="CREDENTIAL">%s</xliff:g>-ը տեղադրված է:"</string>
+    <string name="select_certificate_usage_title" msgid="8853023485944920851">"Ընտրեք հավաստագրի տեսակը"</string>
+    <string name="redirect_ca_certificate_title" msgid="6485888009061040788">"Չհաջողվեց տեղադրել ՎԿ հավաստագիրը"</string>
+    <string name="redirect_ca_certificate_message" msgid="8856228614987350607">"ՎԿ հավաստագրերը կարող են վտանգել ձեր գաղտնիությունը և պետք է տեղադրվեն կարգավորումներում:"</string>
+    <string name="redirect_ca_certificate_close_button" msgid="4291301659747279488">"Փակել"</string>
+    <string name="invalid_certificate_title" msgid="4642955675523621795">"Չհաջողվեց տեղադրել հավաստագրերը"</string>
+    <string name="invalid_certificate_close_button" msgid="350986774973653102">"Փակել"</string>
+    <string name="invalid_certificate_message" msgid="3508065546083182733">"Այս ֆայլը չի կարող օգտագործվել որպես <xliff:g id="CERTIFICATE_USAGE">%1$s</xliff:g>"</string>
+    <string name="certificate" msgid="8790577925509962529">"Հավաստագիր"</string>
+    <string name="ca_certificate" msgid="7397198551290322945">"ՎԿ հավաստագիր"</string>
+    <string name="user_certificate" msgid="514888069820553128">"VPN-ի և հավելվածների օգտատիրոջ հավաստագիր"</string>
+    <string name="wifi_certificate" msgid="5356595832360140989">"Wi‑Fi հավաստագիր"</string>
+    <string name="app_src_certificate" msgid="3694999524870757145">"Հավելվածի աղբյուրի հավաստագիր"</string>
+    <string name="ca_cert_is_added" msgid="2847081843756291802">"ՎԿ հավաստագիրը տեղադրվեց"</string>
+    <string name="user_cert_is_added" msgid="3088794616560630823">"Օգտատիրոջ հավաստագիրը տեղադրվեց"</string>
+    <string name="wifi_cert_is_added" msgid="333220613655140428">"Wi‑Fi հավաստագիրը տեղադրվեց"</string>
+    <string name="app_src_cert_is_added" msgid="9052696598954619608">"Հավելվածի աղբյուրի հավաստագիրը տեղադրվեց"</string>
     <string name="cert_too_large_error" msgid="8715414972725646285">"Չհաջողվեց տեղադրել, քանի որ վկայականի չափը չափազանց մեծ է:"</string>
     <string name="cert_missing_error" msgid="7040527352278728220">"Չհաջողվեց տեղադրել, քանի որ վկայագրի ֆայլը չհաջողվեց տեղորոշել:"</string>
     <string name="cert_read_error" msgid="7353463360652419796">"Չհաջողվեց տեղադրել, քանի որ վկայագրի ֆայլը հնարավոր չէր կարդալ:"</string>
+    <string name="cert_temp_error" msgid="617276803992714550">"Ժամանակավոր խափանում: Նորից փորձեք:"</string>
     <string name="only_primary_user_allowed" msgid="4005084935023047716">"Միայն այս սարքի սեփականատերը կարող է վկայագրեր տեղադրել:"</string>
     <string name="credential_usage_label" msgid="1513892208033156805">"Վկայականի օգտագործումը`"</string>
   <string-array name="credential_usage">
@@ -62,7 +77,7 @@
     <string name="wifi_installing_label" msgid="8387393993627129025">"Տեղադրվում է"</string>
     <string name="wifi_cancel_label" msgid="1328748037608392134">"Չեղարկել"</string>
     <string name="wifi_dismiss_label" msgid="1916684434873972698">"Անտեսել"</string>
-    <string name="wifi_no_config" msgid="1835743123288916755">"Ոչ մի"</string>
+    <string name="wifi_no_config" msgid="1835743123288916755">"Չկա"</string>
     <string name="wifi_config_text" msgid="8259587306773310314">"Անուն՝ %1$s\nFQDN՝ %2$s\nRoaming Consortiums՝ %3$s\nRealm՝ %4$s\nԻսկորոշման եղանակ՝ EAP-%5$s\n"</string>
     <string name="wifi_ttls_config_text" msgid="2002413183253872168">"Օգտատիրոջ անուն՝ %s\n"</string>
     <string name="wifi_tls_config_text" msgid="9062328536640168510">"Սպասառուի վկայագիր՝\n%1$s\nԲանալի՝ %2$s\n"</string>
