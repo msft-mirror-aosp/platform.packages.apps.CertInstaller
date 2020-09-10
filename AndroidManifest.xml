@@ -38,7 +38,6 @@
 
         <activity-alias android:name=".InstallCertAsUser"
              android:targetActivity=".CertInstallerMain"
-             android:exported="true"
              android:permission="com.android.certinstaller.INSTALL_AS_USER">
             <intent-filter>
                 <action android:name="android.credentials.INSTALL_AS_USER"/>
