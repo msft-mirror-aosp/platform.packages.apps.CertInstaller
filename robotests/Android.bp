@@ -1,0 +1,13 @@
+//############################################################
+// CertInstaller Robolectric test target.                    #
+//############################################################
+
+android_robolectric_test {
+    name: "CertInstallerRoboTests",
+
+    srcs: ["src/**/*.java"],
+
+    java_resource_dirs: ["config"],
+
+    instrumentation_for: "CertInstaller",
+}
