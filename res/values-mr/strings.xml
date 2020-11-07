@@ -42,8 +42,8 @@
     <string name="action_missing_private_key" msgid="7543470057312920042">"प्रमाणपत्र इंस्टॉल करण्यासाठी खाजगी की ची आवश्यकता आहे"</string>
     <string name="action_missing_user_cert" msgid="3727411730202316771">"खाजगी की इंस्टॉल करण्यासाठी प्रमाणपत्राची आवश्यकता आहे"</string>
     <string name="select_certificate_usage_title" msgid="8853023485944920851">"प्रमाणपत्राचा प्रकार निवडा"</string>
-    <string name="redirect_ca_certificate_title" msgid="3457516863949244510">"सेटिंग्ज मध्ये CA प्रमाणपत्रे इंस्टॉल करा"</string>
-    <string name="redirect_ca_certificate_with_app_info_message" msgid="934477720755323579">"<xliff:g id="REQUESTING_APP">%1$s</xliff:g> कडील हे प्रमाणपत्र सेटिंग्ज मध्ये इंस्टॉल केलेले असणे आवश्यक आहे. फक्त तुमचा विश्वास असलेल्या संस्थांकडील CA प्रमाणपत्रे इंस्टॉल करा."</string>
+    <string name="redirect_ca_certificate_title" msgid="6485888009061040788">"CA प्रमाणपत्रे इंस्टॉल करू शकत नाही"</string>
+    <string name="redirect_ca_certificate_message" msgid="8856228614987350607">"CA प्रमाणपत्रे तुमची गोपनीयता धोक्यात आणू शकतात आणि ती सेटिंग्ज मध्ये इंस्टॉल केलेली असणे आवश्यक आहेत"</string>
     <string name="redirect_ca_certificate_close_button" msgid="4291301659747279488">"बंद करा"</string>
     <string name="invalid_certificate_title" msgid="6500315398016809635">"ही फाइल वापरू शकत नाही"</string>
     <string name="invalid_certificate_close_button" msgid="350986774973653102">"बंद करा"</string>
@@ -83,9 +83,9 @@
     <string name="install_done" msgid="1522718684172097080">"<xliff:g id="NAME">%1$s</xliff:g> क्रेडेंशियल वाय-फाय ने सेव्ह केलेल्या नेटवर्कवर जोडले गेले आहेत."</string>
     <string name="done_label" msgid="5597425930652904250">"पूर्ण झाले"</string>
     <string name="wifi_installer_detail" msgid="63879632832701669">"<xliff:g id="NAME">%1$s</xliff:g> द्वारे उपलब्ध असलेल्या नेटवर्कशी कनेक्‍ट करण्यासाठी वाय-फाय क्रेडेंशियल इंस्टॉल करा."</string>
-    <string name="wifi_installer_download_error" msgid="5429453090956277692">"डाउनलोड केलेल्या फाइलमध्‍ये समस्या आहेत आणि इंस्टॉल केली जाऊ शकत नाही. तुम्ही योग्य स्त्रोतावरून फाइल डाउनलोड केली हे सुनिश्चित करा."</string>
-    <string name="wifi_installer_fail" msgid="894483173306576331">"वाय-फाय क्रेडेंशियल इंस्टॉल करू शकत नाही. फाइल डाउनलोड करण्‍याचा पुन्हा प्रयत्न करा."</string>
+    <string name="wifi_installer_download_error" msgid="5429453090956277692">"डाउनलोड केलेल्या फाइलमध्‍ये समस्या आहेत आणि इंस्टॉल केली जाऊ शकत नाही. तुम्ही योग्य स्त्रोतावरून फाईल डाउनलोड केली हे सुनिश्चित करा."</string>
+    <string name="wifi_installer_fail" msgid="894483173306576331">"वाय-फाय क्रेडेंशियल इंस्टॉल करू शकत नाही. फाईल डाउनलोड करण्‍याचा पुन्हा प्रयत्न करा."</string>
     <string name="wifi_installer_fail_no_wifi_title" msgid="8358191074828840533">"इंस्टॉल करणे रद्द झाले"</string>
     <string name="wifi_installer_fail_title" msgid="5547079779067835479">"इंस्टॉल करू शकत नाही"</string>
-    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"वाय-फाय सुरू करा आणि पुन्हा प्रयत्न करा."</string>
+    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"वाय-फाय चालू करा आणि पुन्हा प्रयत्न करा."</string>
 </resources>

@@ -42,8 +42,8 @@
     <string name="action_missing_private_key" msgid="7543470057312920042">"តម្រូវឱ្យមានសោឯកជន ដើម្បី​ដំឡើង​វិញ្ញាបនបត្រ"</string>
     <string name="action_missing_user_cert" msgid="3727411730202316771">"តម្រូវឱ្យមានវិញ្ញាបនបត្រ ដើម្បី​ដំឡើង​សោឯកជន"</string>
     <string name="select_certificate_usage_title" msgid="8853023485944920851">"ជ្រើសរើស​ប្រភេទ​វិញ្ញាបនបត្រ"</string>
-    <string name="redirect_ca_certificate_title" msgid="3457516863949244510">"ដំឡើង​វិញ្ញាបនបត្រ CA នៅក្នុង​ការកំណត់"</string>
-    <string name="redirect_ca_certificate_with_app_info_message" msgid="934477720755323579">"ត្រូវតែដំឡើង​វិញ្ញាបនបត្រពី <xliff:g id="REQUESTING_APP">%1$s</xliff:g> នេះ​នៅក្នុង​ការកំណត់។ ដំឡើង​តែវិញ្ញាបនបត្រ CA ពីស្ថាប័ន​ដែលអ្នក​ជឿទុកចិត្ត​ប៉ុណ្ណោះ។"</string>
+    <string name="redirect_ca_certificate_title" msgid="6485888009061040788">"មិនអាច​ដំឡើង​វិញ្ញាបនបត្រ CA បានទេ"</string>
+    <string name="redirect_ca_certificate_message" msgid="8856228614987350607">"វិញ្ញាបនបត្រ CA អាច​ធ្វើឱ្យ​ឯកជនភាព​របស់អ្នក​ប្រឈមនឹង​ហានិភ័យ ហើយ​ត្រូវតែ​ដំឡើង​នៅក្នុង​ការកំណត់"</string>
     <string name="redirect_ca_certificate_close_button" msgid="4291301659747279488">"បិទ"</string>
     <string name="invalid_certificate_title" msgid="6500315398016809635">"មិនអាច​ប្រើ​ឯកសារ​នេះ​បានទេ"</string>
     <string name="invalid_certificate_close_button" msgid="350986774973653102">"បិទ"</string>
@@ -72,7 +72,7 @@
     <string name="wifi_install_label" msgid="1449629407724323233">"ដំឡើង"</string>
     <string name="wifi_installing_label" msgid="8387393993627129025">"ដំឡើង"</string>
     <string name="wifi_cancel_label" msgid="1328748037608392134">"បោះបង់"</string>
-    <string name="wifi_dismiss_label" msgid="1916684434873972698">"ច្រានចោល"</string>
+    <string name="wifi_dismiss_label" msgid="1916684434873972698">"បដិសេធ"</string>
     <string name="wifi_no_config" msgid="1835743123288916755">"គ្មាន"</string>
     <string name="wifi_config_text" msgid="8259587306773310314">"ឈ្មោះ៖ %1$s\nFQDN: %2$s\nសមាគមរ៉ូមីង៖ %3$s\nដែន៖ %4$s\nវិធីផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ៖  EAP-%5$s\n"</string>
     <string name="wifi_ttls_config_text" msgid="2002413183253872168">"ឈ្មោះអ្នកប្រើ៖ %s\n"</string>
