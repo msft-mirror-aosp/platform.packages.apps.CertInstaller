@@ -1,5 +1,8 @@
 android_app {
     name: "CertInstaller",
+    static_libs: [
+        "bouncycastle-unbundled",
+    ],
     srcs: ["src/**/*.java"],
     platform_apis: true,
     certificate: "platform",
