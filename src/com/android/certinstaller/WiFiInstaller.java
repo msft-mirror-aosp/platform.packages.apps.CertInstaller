@@ -14,6 +14,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.DocumentsContract;
 import android.text.TextUtils;
+import android.util.EventLog;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
@@ -60,12 +61,15 @@ public class WiFiInstaller extends Activity {
         // Verify MIME type before parsing
         if (!TextUtils.equals(mimeType, TYPE_WIFI_CONFIG)) {
             Log.e(TAG, "Unexpected MIME type: " + mimeType);
+            EventLog.writeEvent(0x534e4554, "176756691", -1, "Invalid mime-type");
             return;
         }
 
         mPasspointConfig = ConfigParser.parsePasspointConfig(mimeType, data);
         if (mPasspointConfig == null) {
             Log.e(TAG, "Failed to build Passpoint configuration");
+            EventLog.writeEvent(0x534e4554, "176756691", -1, "Invalid data in file "
+                    + uriString);
             return;
         }
         if (mPasspointConfig.getHomeSp() == null) {
