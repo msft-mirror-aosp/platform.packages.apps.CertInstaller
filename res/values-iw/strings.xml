@@ -60,7 +60,7 @@
     <string name="cert_read_error" msgid="7353463360652419796">"לא ניתן להתקין מפני שקובץ האישור לא נמצא."</string>
     <string name="cert_temp_error" msgid="617276803992714550">"שגיאה זמנית. יש לנסות מאוחר יותר."</string>
     <string name="only_primary_user_allowed" msgid="4005084935023047716">"רק הבעלים של מכשיר זה יכול להתקין אישורים."</string>
-    <string name="credential_usage_label" msgid="1513892208033156805">"השימוש בפרטי הכניסה:"</string>
+    <string name="credential_usage_label" msgid="1513892208033156805">"שימוש בפרטי הכניסה:"</string>
   <string-array name="credential_usage">
     <item msgid="375085478373011304">"‏VPN ואפליקציות"</item>
     <item msgid="692322974985472861">"Wi-Fi"</item>
@@ -80,7 +80,7 @@
     <string name="wifi_sim_config_text" msgid="1666019954520831840">"‏SIM:‏ %s\n"</string>
     <string name="wifi_trust_config_text" msgid="5916047381475747783">"‏תעודת אמון:\n%s\n"</string>
     <string name="install_done_title" msgid="4822989918460334497">"פרטי כניסה הותקנו"</string>
-    <string name="install_done" msgid="1522718684172097080">"‏פרטי כניסה של <xliff:g id="NAME">%1$s</xliff:g> נוספו אל רשתות Wi-Fi שנשמרו."</string>
+    <string name="install_done" msgid="1522718684172097080">"‏פרטי הכניסה של <xliff:g id="NAME">%1$s</xliff:g> נוספו אל רשתות ה-Wi-Fi השמורות."</string>
     <string name="done_label" msgid="5597425930652904250">"סיום"</string>
     <string name="wifi_installer_detail" msgid="63879632832701669">"‏יש להתקין פרטי כניסה של Wi-Fi כדי להתחבר לרשתות שזמינות דרך <xliff:g id="NAME">%1$s</xliff:g>."</string>
     <string name="wifi_installer_download_error" msgid="5429453090956277692">"יש בעיות בקובץ שהורדת ולא ניתן להתקינו. ודא שהורדת את הקובץ מהמקור המתאים."</string>
