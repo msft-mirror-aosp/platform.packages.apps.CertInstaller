@@ -59,7 +59,7 @@
     <string name="cert_missing_error" msgid="7040527352278728220">"स्थापना गर्न सकेन किनभने प्रमाणपत्र फाइल पत्ता लगाउन सकिएन।"</string>
     <string name="cert_read_error" msgid="7353463360652419796">"स्थापना गर्न सकिएन किनभने प्रमाणपत्र फाइल पढ्न सकेन।"</string>
     <string name="cert_temp_error" msgid="617276803992714550">"अस्थायी विफलता। कृपया पछि फेरि प्रयास गर्नुहोस्।"</string>
-    <string name="only_primary_user_allowed" msgid="4005084935023047716">"यो उपकरणको मालिकले मात्र सर्टिफिकेट इन्स्टल गर्न सक्छ।"</string>
+    <string name="only_primary_user_allowed" msgid="4005084935023047716">"यो उपकरणको मालिकले मात्र प्रमाणपत्रहरू स्थापना गर्न सक्छ।"</string>
     <string name="credential_usage_label" msgid="1513892208033156805">"प्रमाणपत्रको प्रयोग:"</string>
   <string-array name="credential_usage">
     <item msgid="375085478373011304">"VPN र एपहरू"</item>
