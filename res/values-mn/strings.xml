@@ -50,7 +50,7 @@
     <string name="invalid_certificate_message" msgid="3508065546083182733">"Энэ файлыг <xliff:g id="CERTIFICATE_USAGE">%1$s</xliff:g>-р ашиглах боломжгүй"</string>
     <string name="certificate" msgid="8790577925509962529">"Сертификат"</string>
     <string name="ca_certificate" msgid="7397198551290322945">"CA сертификат"</string>
-    <string name="user_certificate" msgid="514888069820553128">"VPN ба апп хэрэглэгчийн сертификат"</string>
+    <string name="user_certificate" msgid="514888069820553128">"VPN; апликейшн хэрэглэгчийн сертификат"</string>
     <string name="wifi_certificate" msgid="5356595832360140989">"Wi‑Fi сертификат"</string>
     <string name="ca_cert_is_added" msgid="2847081843756291802">"CA сертификатыг суулгалаа"</string>
     <string name="user_cert_is_added" msgid="3088794616560630823">"Хэрэглэгчийн сертификатыг суулгалаа"</string>
