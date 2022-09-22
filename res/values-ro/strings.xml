@@ -21,7 +21,7 @@
     <string name="pkcs12_password_dialog_title" msgid="5997624645207427161">"Extrage certificatul"</string>
     <string name="extracting_pkcs12" msgid="1881267738821799771">"Se extrage..."</string>
     <string name="pkcs12_file_password_dialog_title" msgid="8102721384767269510">"Extrage din %s"</string>
-    <string name="name_credential_dialog_title" msgid="1481964824549786927">"Denumiți acest certificat"</string>
+    <string name="name_credential_dialog_title" msgid="1481964824549786927">"Denumește acest certificat"</string>
     <string name="certificate_name" msgid="8415893401368824792">"Numele certificatului"</string>
     <string name="credential_password" msgid="3520176519550993326">"Introdu parola pentru a extrage certificatele."</string>
     <string name="credential_info" msgid="2436768402308470397">"Pachetul conține:"</string>
