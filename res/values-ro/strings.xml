@@ -43,7 +43,7 @@
     <string name="action_missing_user_cert" msgid="3727411730202316771">"Pentru a instala o cheie privată este necesar un certificat"</string>
     <string name="select_certificate_usage_title" msgid="8853023485944920851">"Alege un tip de certificat"</string>
     <string name="redirect_ca_certificate_title" msgid="3457516863949244510">"Instalează certificatele CA în Setări"</string>
-    <string name="redirect_ca_certificate_with_app_info_message" msgid="934477720755323579">"Acest certificat de la <xliff:g id="REQUESTING_APP">%1$s</xliff:g> trebuie să fie instalat în Setări. Instalați certificate CA numai de la organizații în care aveți încredere."</string>
+    <string name="redirect_ca_certificate_with_app_info_message" msgid="934477720755323579">"Acest certificat de la <xliff:g id="REQUESTING_APP">%1$s</xliff:g> trebuie să fie instalat în Setări. Instalează certificate CA numai de la organizații în care ai încredere."</string>
     <string name="redirect_ca_certificate_close_button" msgid="4291301659747279488">"Închide"</string>
     <string name="invalid_certificate_title" msgid="6500315398016809635">"Nu poți folosi acest fișier"</string>
     <string name="invalid_certificate_close_button" msgid="350986774973653102">"Închide"</string>
