@@ -58,15 +58,15 @@
     <string name="cert_too_large_error" msgid="8715414972725646285">"Kunne ikke installere fordi sertifikatet er for stort."</string>
     <string name="cert_missing_error" msgid="7040527352278728220">"Kunne ikke installere fordi sertifikatfilen ikke ble funnet."</string>
     <string name="cert_read_error" msgid="7353463360652419796">"Kunne ikke installere fordi sertifikatfilen ikke kunne leses."</string>
-    <string name="cert_temp_error" msgid="617276803992714550">"Midlertidig feil. Prøv igjen senere."</string>
+    <string name="cert_temp_error" msgid="617276803992714550">"Midlertidig feil. Prøv på nytt senere."</string>
     <string name="only_primary_user_allowed" msgid="4005084935023047716">"Bare eieren av denne enheten kan installere sertifikater."</string>
     <string name="credential_usage_label" msgid="1513892208033156805">"Bruk av legitimasjon:"</string>
   <string-array name="credential_usage">
     <item msgid="375085478373011304">"VPN og apper"</item>
-    <item msgid="692322974985472861">"Wi-Fi"</item>
+    <item msgid="692322974985472861">"Wifi"</item>
   </string-array>
     <string name="certificate_capabilities_warning" msgid="4158609401937799110">"Merk: Utstederen av dette sertifikatet kan inspisere all trafikk til og fra enheten."</string>
-    <string name="wifi_title" msgid="8475811746333426489">"Wi-Fi-profil"</string>
+    <string name="wifi_title" msgid="8475811746333426489">"Wifi-profil"</string>
     <string name="wifi_detail_title" msgid="3627332137252994395">"Detaljer for %s"</string>
     <string name="wifi_detail_label" msgid="3032151019356747583">"Detaljer"</string>
     <string name="wifi_install_label" msgid="1449629407724323233">"Installer"</string>
@@ -80,12 +80,12 @@
     <string name="wifi_sim_config_text" msgid="1666019954520831840">"SIM-kort: %s\n"</string>
     <string name="wifi_trust_config_text" msgid="5916047381475747783">"Forvaltningsbevis:\n%s\n"</string>
     <string name="install_done_title" msgid="4822989918460334497">"Legitimasjonen er installert"</string>
-    <string name="install_done" msgid="1522718684172097080">"<xliff:g id="NAME">%1$s</xliff:g>-legitimasjonen er lagt til i lagrede Wi-Fi-nettverk."</string>
+    <string name="install_done" msgid="1522718684172097080">"<xliff:g id="NAME">%1$s</xliff:g>-legitimasjonen er lagt til i lagrede Wifi-nettverk."</string>
     <string name="done_label" msgid="5597425930652904250">"FERDIG"</string>
-    <string name="wifi_installer_detail" msgid="63879632832701669">"Installer Wi-Fi-legitimasjon for å koble til nettverk via <xliff:g id="NAME">%1$s</xliff:g>."</string>
+    <string name="wifi_installer_detail" msgid="63879632832701669">"Installer Wifi-legitimasjon for å koble til nettverk via <xliff:g id="NAME">%1$s</xliff:g>."</string>
     <string name="wifi_installer_download_error" msgid="5429453090956277692">"Den nedlastede filen har problemer og kan ikke installeres. Sørg for at du laster ned filen fra den riktige kilden."</string>
-    <string name="wifi_installer_fail" msgid="894483173306576331">"Kan ikke installere Wi-Fi-legitimasjonen. Prøv å laste ned filen på nytt."</string>
+    <string name="wifi_installer_fail" msgid="894483173306576331">"Kan ikke installere Wifi-legitimasjonen. Prøv å laste ned filen på nytt."</string>
     <string name="wifi_installer_fail_no_wifi_title" msgid="8358191074828840533">"Installasjonen er avbrutt"</string>
     <string name="wifi_installer_fail_title" msgid="5547079779067835479">"Kan ikke installere"</string>
-    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"Slå på Wi-Fi og prøv på nytt."</string>
+    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"Slå på Wifi og prøv på nytt."</string>
 </resources>
