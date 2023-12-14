@@ -15,4 +15,6 @@ android_robolectric_test {
     java_resource_dirs: ["config"],
 
     instrumentation_for: "CertInstaller",
+
+    upstream: true,
 }
