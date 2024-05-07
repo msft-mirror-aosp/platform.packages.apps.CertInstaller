@@ -22,7 +22,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.security.Credentials;
 import android.security.KeyChain;
-import android.security.KeyStore;
+import android.security.keystore.KeyProperties;
 import android.os.Process;
 
 import org.junit.Before;
@@ -82,7 +82,7 @@ public final class CertInstallerRoboTest {
     /**
      * mUid should be ignored if EXTRA_CERTIFICATE_USAGE is provided.
      * if EXTRA_CERTIFICATE_USAGE does not equal CERTIFICATE_USAGE_WIFI,
-     * mUid should equal KeyStore.UID_SELF
+     * mUid should equal KeyProperties.UID_SELF
      */
     @Test
     public void testUidUsageNotNullPass() throws Exception {
@@ -92,7 +92,7 @@ public final class CertInstallerRoboTest {
 
         CredentialHelper helper = startActivityAndGetCredentialHelper(intent);
 
-        assertThat(helper.getUid()).isEqualTo(KeyStore.UID_SELF);
+        assertThat(helper.getUid()).isEqualTo(KeyProperties.UID_SELF);
         assertThat(helper.getCertUsageSelected()).isEqualTo("usage");
     }
 
