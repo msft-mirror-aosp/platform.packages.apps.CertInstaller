@@ -16,7 +16,7 @@
 
 package com.android.certinstaller;
 
-import static android.security.KeyStore.UID_SELF;
+import static android.security.keystore.KeyProperties.UID_SELF;
 import android.annotation.NonNull;
 import android.annotation.Nullable;
 import android.app.KeyguardManager;
