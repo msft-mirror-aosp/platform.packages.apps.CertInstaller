@@ -18,4 +18,6 @@ android_robolectric_test {
     instrumentation_for: "CertInstaller",
 
     upstream: true,
+
+    strict_mode: false,
 }
