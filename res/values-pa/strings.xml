@@ -39,8 +39,8 @@
     <string name="cert_not_saved" msgid="4037698479662830270">"ਪ੍ਰਮਾਣ-ਪੱਤਰ ਸਥਾਪਤ ਨਹੀਂ ਕੀਤਾ ਹੈ।"</string>
     <string name="no_cert_to_saved" msgid="5708884372817309068">"ਸਥਾਪਤ ਕਰਨ ਲਈ ਕੋਈ ਪ੍ਰਮਾਣ-ਪੱਤਰ ਨਹੀਂ ਮਿਲਿਆ।"</string>
     <string name="invalid_cert" msgid="7704228670980743590">"ਪ੍ਰਮਾਣ-ਪੱਤਰ ਅਵੈਧ ਹੈ।"</string>
-    <string name="action_missing_private_key" msgid="7543470057312920042">"ਕੋਈ ਪ੍ਰਮਾਣ-ਪੱਤਰ ਸਥਾਪਤ ਕਰਨ ਲਈ ਨਿੱਜੀ ਕੁੰਜੀ ਦੀ ਲੋੜ ਹੈ"</string>
-    <string name="action_missing_user_cert" msgid="3727411730202316771">"ਕੋਈ ਨਿੱਜੀ ਕੁੰਜੀ ਸਥਾਪਤ ਕਰਨ ਲਈ ਪ੍ਰਮਾਣ-ਪੱਤਰ ਦੀ ਲੋੜ ਹੈ"</string>
+    <string name="action_missing_private_key" msgid="7543470057312920042">"ਪ੍ਰਮਾਣ-ਪੱਤਰ ਸਥਾਪਤ ਕਰਨ ਲਈ ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ ਦੀ ਲੋੜ ਹੈ"</string>
+    <string name="action_missing_user_cert" msgid="3727411730202316771">"ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ ਸਥਾਪਤ ਕਰਨ ਲਈ ਪ੍ਰਮਾਣ-ਪੱਤਰ ਦੀ ਲੋੜ ਹੈ"</string>
     <string name="select_certificate_usage_title" msgid="8853023485944920851">"ਪ੍ਰਮਾਣ-ਪੱਤਰ ਦੀ ਕਿਸਮ ਚੁਣੋ"</string>
     <string name="redirect_ca_certificate_title" msgid="3457516863949244510">"ਸੈਟਿੰਗਾਂ ਵਿੱਚ CA ਪ੍ਰਮਾਣ-ਪੱਤਰ ਸਥਾਪਤ ਕਰੋ"</string>
     <string name="redirect_ca_certificate_with_app_info_message" msgid="934477720755323579">"<xliff:g id="REQUESTING_APP">%1$s</xliff:g> ਦੇ ਇਸ ਪ੍ਰਮਾਣ-ਪੱਤਰ ਨੂੰ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਸਥਾਪਤ ਕੀਤਾ ਹੋਣਾ ਲਾਜ਼ਮੀ ਹੈ। ਸਿਰਫ਼ ਭਰੋਸੇਯੋਗ ਸੰਸਥਾਵਾਂ ਦੇ CA ਪ੍ਰਮਾਣ-ਪੱਤਰ ਸਥਾਪਤ ਕਰੋ।"</string>
