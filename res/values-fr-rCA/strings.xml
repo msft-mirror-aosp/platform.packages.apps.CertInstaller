@@ -75,7 +75,7 @@
     <string name="wifi_dismiss_label" msgid="1916684434873972698">"Supprimer"</string>
     <string name="wifi_no_config" msgid="1835743123288916755">"Aucun"</string>
     <string name="wifi_config_text" msgid="8259587306773310314">"Nom : %1$s\nFQDN: %2$s\nConsortiums d\'itinérance : %3$s\nPortée : %4$s\nMéthode d\'authentification : EAP-%5$s\n"</string>
-    <string name="wifi_ttls_config_text" msgid="2002413183253872168">"Nom d\'utilisateur : %s\n"</string>
+    <string name="wifi_ttls_config_text" msgid="2002413183253872168">"Nom d\'utilisateur : %s\n"</string>
     <string name="wifi_tls_config_text" msgid="9062328536640168510">"Certificat client :\n%1$s\nClé : %2$s\n"</string>
     <string name="wifi_sim_config_text" msgid="1666019954520831840">"SIM : %s\n"</string>
     <string name="wifi_trust_config_text" msgid="5916047381475747783">"Certificat de confiance : \n%s\n"</string>
